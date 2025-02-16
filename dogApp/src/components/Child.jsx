@@ -20,32 +20,6 @@ function Container(props) {
     </>
 }
 
-function Frame({title}) {
-    return <fieldset className='frame'>
-        <legend>{title}</legend>
-        <h4>What should I write?</h4>
-        <p>Nu?! </p>
-        <span>I don't know...</span>
-    </fieldset>
-}
-
-const Displayer = ({children}) => {
-    const [value, setValue] = useState(1);
-    const childrenAmnt = Children.count(children);    
-
-    return <>
-        <input 
-            type="number" 
-            min='1' 
-            max={childrenAmnt}
-            value={value}
-            onChange={(e) =>setValue(e.target.value)}
-        />
-        <br />
-        {childrenAmnt == 1 ? children : children[value - 1]}
-    </>
-}
-
 const Child = () => {
     const [myState, setMyState] = useState('first');
     return (
@@ -61,16 +35,6 @@ const Child = () => {
             <span>ffslfsfk jdfd</span>
             <span>sdfjgldg</span>
         </Container>
-        {/* <Frame title='My BS'>
-            
-        </Frame>
-        <Displayer>
-            <span>aaaaaaaaaaaaaaa</span>
-            <span>bbbbbbbbbbbbbbb</span>
-            <span>ccccccccccccccc</span>
-            <span>ddddddddddddddd</span>
-            <span>eeeeeeeeeeeeeee</span>
-        </Displayer> */}
     </PageContext.Provider>
     )
 }
