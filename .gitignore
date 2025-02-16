@@ -1,0 +1,85 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+dist-ssr/
+build/
+
+# Local environment variables
+dogApp/.env
+dogServer/.env
+.env
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# dogApp Specific Ignores (Frontend)
+dogApp/node_modules/
+dogApp/dist/
+dogApp/frontend/node_modules/
+dogApp/frontend/dist/
+dogApp/frontend/build/
+
+# dogServer Specific Ignores (Backend)
+dogServer/node_modules/
+dogServer/dist/
+dogServer/build/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # Logs
+# logs
+# *.log
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# pnpm-debug.log*
+# lerna-debug.log*
+
+# node_modules
+# dist
+# dist-ssr
+# *.local
+
+# # Editor directories and files
+# .vscode/*
+# !.vscode/extensions.json
+# .idea
+# .DS_Store
+# *.suo
+# *.ntvs*
+# *.njsproj
+# *.sln
+# *.sw?

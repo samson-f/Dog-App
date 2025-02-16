@@ -1,0 +1,20 @@
+.imgContainer {
+    img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        border: solid 4px darkgrey;
+        border-radius: 15px;
+        box-shadow: 0 0 10px 2px gray;
+    }
+    transition: 0.3s;
+  }
+  .heart {
+    position: absolute;
+    margin: 10px;
+    z-index: 2;
+    font-size: 20px;
+  }
+  .imgContainer:hover {
+    transform: scale(1.1);
+  }

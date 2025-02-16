@@ -1,0 +1,37 @@
+.popupBar {
+    padding: 5px;
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 500px;
+    max-width: 500px;
+    background-color: beige;
+    color: brown;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 3;
+    button {
+        color: brown;
+        background-color: beige;
+        border: none;
+        /* float: right; */
+        font-size: large;
+        margin: 2px;
+    }
+}
+
+.popupBtn {
+    background-color: rgb(29, 91, 184);
+    color: brown;
+    border: none;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.closePopupBtn {
+    color: brown;
+    background-color: beige;
+    border: none;
+    float: right;
+    margin: 2px;
+}
